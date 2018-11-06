@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+        <TextView
+                android:id="@+id/trabajoCasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trabajo en casa"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+
+        <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:id="@+id/txvCasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"/>
+
+        <TextView
+                android:id="@+id/titleAprobar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voy a aprobar"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"/>
+
+        <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:id="@+id/txvAprobar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"/>
+
+        <TextView
+                android:id="@+id/titleTengo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tengo:"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+        <LinearLayout
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <EditText
+                    android:id="@+id/etxTengo"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginTop="30dp"/>
+
+            <TextView
+                    android:id="@+id/txvTengo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
